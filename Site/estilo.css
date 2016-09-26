@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.center {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 1- definiçoes do logo */
+#logo{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+}
+/* fim 1 */
+
+/* 2- menu */
+#menu{
+  position: absolute;
+  width: 1000px;
+  height: 50px;
+  top:242px;
+  left: 50%;
+  margin-left: -500px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.40);
+}
+.squad{
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  top: 5px;
+  left: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.squad:hover{
+  box-shadow: 0 0 5px 5px rgba(0, 103, 250, 0.5);
+}
+#leo{
+  left: 120px;
+}
+#scott{
+  left: 235px;
+}
+#lugui{
+  left: 350px;
+}
+#oct{
+  left: 465px;
+}
+#tato{
+  left: 580px;
+}
+#rafa{
+  left: 695px;
+}
+#ajuda{
+  left:895px;
+}
+/* fim 2 */
+
+/* 3- estilo das categorias do menu */
+#cats{
+  position: absolute;
+  width: 100%;
+  height: 180%;
+  top: 222px;
+  left: 50%;
+  margin-left: -50%;
+  padding: 0px;
+  background-image: url(img/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.cats{
+  position: absolute;
+  left: 50%;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.5s;
+  background-color: #FFFFFF;
+}
+.cats:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 103, 250, 0.5);
+}
+#cat1{
+  width: 300px;
+  height: 240px;
+  top: 122px;
+  margin-left: -500px;
+  border-radius: 4px;
+  background: url(img/alpha.jpg);
+}
+#cat2{
+  width: 300px;
+  height: 240px;
+  top: 122px;
+  margin-left: -150px;
+  background: url(img/alpha.jpg);
+}
+#cat3{
+  width: 300px;
+  height: 240px;
+  top: 122px;
+  margin-left: 200px;
+  background: url(img/alpha.jpg);
+}
+#cat4{
+  width: 300px;
+  height: 240px;
+  top: 406px;
+  margin-left: -500px;
+  background: url(img/alpha.jpg);
+}
+#cat5{
+  width: 300px;
+  height: 240px;
+  top: 406px;
+  margin-left: -150px;
+  background: url(img/alpha.jpg);
+}
+#cat6{
+  width: 300px;
+  height: 240px;
+  top: 406px;
+  margin-left: 200px;
+  background: url(img/alpha.jpg);
+}
+#cat7{
+  width: 300px;
+  height: 240px;
+  top: 690px;
+  margin-left: -500px;
+  background: url(img/alpha.jpg);
+}
+#cat8{
+  width: 300px;
+  height: 240px;
+  top: 690px;
+  margin-left: -150px;
+  background: url(img/alpha.jpg);
+}
+#cat9{
+  width: 300px;
+  height: 240px;
+  top: 690px;
+  margin-left: 200px;
+  background: url(img/alpha.jpg);
+}
+/* fim 3 */
+
+/* 4- definiçoes do rodape */
+#rodape{
+  position: absolute;
+  width: 164px;
+  font-family: arial;
+  left: 50%;
+  margin-left: -82px;
+  top: 1200px;
+  color: #FFFFFF;
+}
+/* fim 4 */
