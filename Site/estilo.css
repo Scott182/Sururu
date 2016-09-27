@@ -100,14 +100,22 @@ body{
   top: 122px;
   margin-left: -500px;
   border-radius: 4px;
-  background: url(img/alpha.jpg);
 }
 #cat2{
   width: 300px;
   height: 240px;
   top: 122px;
   margin-left: -150px;
-  background: url(img/alpha.jpg);
+  background-color: #ffffff;
+  background: url('img/gun_s.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cat2:hover{
+  cursor:pointer;
+  background:url('img/gun.gif');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #cat3{
   width: 300px;
